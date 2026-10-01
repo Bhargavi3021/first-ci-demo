@@ -30,7 +30,7 @@ jobs:
       
       - name: Check Python syntax
         run: python -m py_compile result_logic.py test_result_logic.py
-              - name: Install coverage
+      - name: Install coverage
         run: pip install coverage
 
       - name: Run test coverage
