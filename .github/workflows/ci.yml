@@ -27,3 +27,6 @@ jobs:
 
       - name: Run automated tests
         run: python -m unittest discover -v
+      
+      - name: Check Python syntax
+        run: python -m py_compile result_logic.py test_result_logic.py
